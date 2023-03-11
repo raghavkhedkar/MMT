@@ -57,5 +57,8 @@ public class HomePageObjects {
 		public boolean isoffersBlockPresent() {
 			return offersBlock.isDisplayed();
 		}
+		public void offersBlockClick() {
+			offersBlock.click();
+		}
 		
 }
